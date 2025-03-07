@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+    <div class="container">
+        <h2>Formulir CV</h2>
+        <input type="text" id="nama" placeholder="Nama Lengkap" required>
+        <input type="text" id="ttl" placeholder="Tempat, Tanggal Lahir" required>
+        <textarea id="pendidikan" placeholder="Riwayat Pendidikan" required></textarea>
+        <button onclick="simpanData()">Simpan & Lihat CV</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
