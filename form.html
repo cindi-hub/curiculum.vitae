@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body onload="checkLogin()">
     <div class="container">
@@ -12,6 +12,7 @@
         <input type="text" id="nama" placeholder="Nama Lengkap" required>
         <input type="text" id="ttl" placeholder="Tempat, Tanggal Lahir" required>
         <textarea id="pendidikan" placeholder="Riwayat Pendidikan" required></textarea>
+        <input type="file" id="foto" accept="image/*" required>
         <button onclick="simpanData()">Simpan & Lihat CV</button>
     </div>
     <script src="script.js"></script>

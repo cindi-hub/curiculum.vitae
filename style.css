@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a74949;
+    background-color: #f4f4f4;
 }
 .container {
     background: white;
@@ -22,7 +22,7 @@ input, textarea {
     border-radius: 5px;
 }
 button {
-    background: rgb(156, 156, 196);
+    background: blue;
     color: white;
     padding: 10px;
     border: none;
